@@ -1,0 +1,385 @@
+body {
+    font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  
+  
+}
+
+
+.container{
+    width: 92%;
+    height: 100%;
+    margin: auto;
+}
+
+
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: row;
+    gap: 50px;
+  
+}
+
+li{
+      cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+li:hover{
+    color: #9370DB;
+    font-weight: bold;
+}
+
+
+.leftRight{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 50%;
+    height: 90vh;
+    margin: 0;
+    
+    padding-left: 5vh;
+}
+
+
+.tagline1{
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+
+.tagline2{
+    font-size: 30px;
+}
+
+
+
+.signIn{
+    width: 190px;
+    height: 60px;
+    border-radius: 20px;
+    border: 1px solid #1d1d1f;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 30px;
+     font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  transition: .3s ease-in-out;
+}
+
+.bookNow{
+    width: 190px;
+    height: 60px;
+    border-radius: 20px;
+    border: 1px solid #9370DB;
+    background-color: white;
+    cursor: pointer;
+     font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  transition: .3s ease-in-out;
+}
+
+
+.signIn:hover{
+    background-color: #1d1d1f;
+    color: white;
+    transform: scale(1.03);
+   
+}
+
+.bookNow:hover{
+    background-color: #9370DB;
+    color: white;
+    transform: scale(1.03);
+   
+}
+
+.right{
+    width: 50%;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.damit{
+    width: 719px;
+    height: 719px;
+    rotate: 20deg;
+    
+}
+
+
+.servicesTitle{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.servicesTitle p{
+    font-size: 70px;
+    font-weight: bold;
+    
+}
+
+
+.clearBox{
+    height: 900px;
+    width: 100%;
+   
+
+    background-color: #E6E6FA;
+
+    border-radius: 16px;
+    box-shadow: 0px 1px 10px 1px #888888;
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: 1px solid rgba(255, 255, 255, 0.36);
+   
+    
+
+}
+
+.part1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+
+.icons{
+    height: 155px;
+    width: 155px;
+}
+
+
+.wash, .dry, .fold{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+}
+
+
+.categories{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 25px;
+}
+
+.lineContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.line{
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    
+}
+
+
+.part2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    
+}
+
+
+.icons2{
+    height: 155px;
+    width: 155px;
+}
+
+
+.dropOff, .pickUp, .delivery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+}
+
+
+.categories2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.description2{
+    font-size: 25px;
+}
+
+
+.rates{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.ratesTitle{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.ratesDescription{
+ font-size: 40px;
+ margin-top: -50px;
+}
+
+.prices{
+    display: flex;
+    justify-content: space-between;
+}
+
+.washP, .dryP, .foldP, .deliveryP{   
+    width: 330px;
+    height: 155px;
+    border: none;
+    box-shadow: 0px 1px 10px 1px #888888;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.washP:hover, .dryP:hover, .foldP:hover, .deliveryP:hover{
+    transform: translateY(-5%);
+    background-color: #9370DB;
+    color: white;
+    
+}
+
+
+.Wash2, .Dry2, .Fold2, .Delivery2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.washPrice, .dryPrice, .foldPrice, .deliveryPrice{
+    font-size: 30px;
+    margin-top: -20px;
+
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
+.contactTitle{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+.footerBox{
+    
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 50px;    
+    transition: .3s ease-in-out;
+    
+
+}
+
+.footerBox:hover{
+    border: 1px solid #E9DCC9;
+    box-shadow: 0px 1px 10px 1px #888888;
+
+}
+
+
+
+.tags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.taglineFooter1{
+    font-size: 40px;
+}
+
+
+.taglineFooter2{
+    font-size: 20px;
+}
+
+
+.bookNowFooter{
+    width: 400px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 1px 10px 1px #888888;
+    cursor: pointer;
+    font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 16px;
+  
+  background-color: white;
+  transition: .3s ease-in-out;
+}
+
+.bookNowFooter:hover{
+    background-color: #9370DB;
+    color: white;
+    transform: scale(1.03);
+}
+
+.shopInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+
+
